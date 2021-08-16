@@ -157,7 +157,6 @@ class SettingsTile extends AbstractTile {
               title ?? '',
               style: titleTextStyle,
               maxLines: titleMaxLines,
-              overflow: TextOverflow.ellipsis,
             ),
         subtitle: subtitleWidget ??
             (subtitle != null
