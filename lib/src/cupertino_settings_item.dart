@@ -110,7 +110,6 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
       titleSection = widget.labelWidget ??
           Text(
             widget.label ?? '',
-            overflow: TextOverflow.ellipsis,
             style: widget.labelTextStyle ??
                 TextStyle(
                   fontSize: 16,
@@ -126,7 +125,6 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
           widget.labelWidget ??
               Text(
                 widget.label ?? '',
-                overflow: TextOverflow.ellipsis,
                 style: widget.labelTextStyle,
               ),
           const SizedBox(height: 2.5),
@@ -134,7 +132,6 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
               Text(
                 widget.subtitle!,
                 maxLines: widget.subtitleMaxLines,
-                overflow: TextOverflow.ellipsis,
                 style: widget.subtitleTextStyle ??
                     TextStyle(
                       fontSize: 12.0,
@@ -189,7 +186,6 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
                     ),
                     child: Text(
                       widget.value!,
-                      overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.end,
                       style: widget.valueTextStyle ??
                           TextStyle(

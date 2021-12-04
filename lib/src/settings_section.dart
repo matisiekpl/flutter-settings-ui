@@ -66,7 +66,6 @@ class SettingsSection extends AbstractSection {
                   title!,
                   style: titleTextStyle,
                   maxLines: maxLines,
-                  overflow: TextOverflow.ellipsis,
                 ),
           if (subtitle != null)
             Padding(
@@ -92,7 +91,6 @@ class SettingsSection extends AbstractSection {
                   fontWeight: FontWeight.bold,
                 ),
             maxLines: maxLines,
-            overflow: TextOverflow.ellipsis,
           ),
         ),
       if (subtitle != null)

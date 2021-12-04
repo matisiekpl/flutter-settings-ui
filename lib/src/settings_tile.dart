@@ -164,7 +164,6 @@ class SettingsTile extends AbstractTile {
                     subtitle!,
                     style: subtitleTextStyle,
                     maxLines: subtitleMaxLines,
-                    overflow: TextOverflow.ellipsis,
                   )
                 : null),
       );
@@ -177,7 +176,6 @@ class SettingsTile extends AbstractTile {
                     subtitle!,
                     style: subtitleTextStyle,
                     maxLines: subtitleMaxLines,
-                    overflow: TextOverflow.ellipsis,
                   )
                 : null),
         leading: leading,
